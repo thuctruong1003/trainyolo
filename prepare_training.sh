@@ -29,7 +29,7 @@ cp cfg/*.cfg darknet/cfg/
 if [[ ! -f darknet/yolov4.conv.137 ]]; then
   pushd darknet > /dev/null
   echo "** Download pre-trained yolov4 weights"
-  python3 -m gdown.cli https://drive.google.com/uc?id=1JKF-bdIklxOOVy-2Cr5qdvjgGpmGfcbp
+  python3 -m gdown.cli https://drive.google.com/u/1/uc?id=1mtNPPRLClb7OH9QzfrDroRICMDx821L2
   popd > /dev/null
 fi
 
